@@ -1,14 +1,14 @@
 import smtplib
 from email.mime.text import MIMEText
 
-gmail_user = 'andreas.ded2@gmail.com'
-gmail_password = 'punksk8er12345%'
+gmail_user = 'your email'
+gmail_password = 'password'
 
 from_=gmail_user
-to =['iwsifa@gmail.com','krnikos@gmail.com']
+to =['someonetosend@gmail.com','someonetosend2@gmail.com']
 subject = 'OMG Super Important Message'
 body = 1234
-email_text = "niko ti kaneis re mouni "+str(body)
+email_text = "write somethong"+str(body)
 message='Subject: %s\n\n %s'%(subject,email_text)
 
 
